@@ -1,0 +1,13 @@
+{
+  "name": "bot-precios-juegos",
+  "version": "1.0.0",
+  "description": "API de precios de recargas (COD, Free Fire, Roblox, Brawl Stars) con OpenAI y tasa en Bs.",
+  "main": "api/consulta.js",
+  "scripts": {
+    "start": "node api/consulta.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "openai": "^4.0.0"
+  }
+}
